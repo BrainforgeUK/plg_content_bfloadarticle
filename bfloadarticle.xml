@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="content" method="upgrade">
+	<name>Content - bfloadarticle</name>
+  <creationDate>September 2017</creationDate>
+  <author>Jonathan Brain</author>
+  <authorEmail>brainforge.uk@btinternet.com</authorEmail>
+  <authorUrl>http://www.brainforge.co.uk</authorUrl>
+  <copyright>Copyright 2017 Jonathan Brain. All rights reserved.</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+  <version>1.0.0</version>
+	<description><![CDATA[This plugin allows one article to be displayed within another article.
+<br/><br/>
+It operates in a similar manner to the Joomla {loadposition ...} feature but instead of using
+Custom HTML modules it uses articles.<br/><br/>
+It can be used to emulate a multiple category feature for articles<br/>
+i.e create article in primary category as normal and then use &#123;loadarticle ...&#125; to include the article in other categories as needed.
+<br/>
+<br/>
+Syntax in editor:
+<ul>
+<li>{bfloadarticle id}</li>
+<li>{bfloadarticle id options}</li>
+</ul>
+<br/>
+Options is numeric binary OR of one or more of the following values.
+<ul>
+<li>1 : show title</li>
+<!--
+<li>2 : show author</li>
+<li>4 : show category (as link)</li>
+-->
+</ul>
+]]></description>
+
+	<files>		
+		<filename plugin="bfloadarticle">bfloadarticle.php</filename>		
+		<filename>index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+  			<field name="show_notfound"	type="radio" class="btn-group" default="0"
+  				label="Display 'not found'"
+  				description="Display message if article not found.">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+  			</field>
+  			<field name="show_unpublished"	type="radio" class="btn-group" default="0"
+  				label="Display 'unpublished'"
+  				description="Display message if article not published.">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+  			</field>
+      </fieldset>
+		</fields>
+	</config>	
+</extension>
