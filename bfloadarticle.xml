@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.5" type="plugin" group="content" method="upgrade">
-	<name>Content - bfloadarticle</name>
+	<name>Content - bfloadarticle by BrainforgeUK</name>
   <creationDate>September 2017</creationDate>
   <author>Jonathan Brain</author>
   <authorEmail>brainforge.uk@btinternet.com</authorEmail>
@@ -57,6 +57,6 @@ Options is numeric binary OR of one or more of the following values.
 	</config>	
 
   <updateservers>
-      <server type="extension" priority="1" name="Content - bfloadarticle">https://brainforge.co.uk/media/com_bfupdater/plg_bfloadarticle.xml</server>
+      <server type="extension" priority="1" name="Content - bfloadarticle by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_bfloadarticle.xml</server>
   </updateservers>
 </extension>
