@@ -57,6 +57,6 @@ Options is numeric binary OR of one or more of the following values.
 	</config>	
 
   <updateservers>
-      <server type="extension" priority="1" name="Content - bfloadarticle by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_bfloadarticle.xml</server>
+      <server type="extension" priority="1" name="Content - bfloadarticle by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_content_bfloadarticle.xml</server>
   </updateservers>
 </extension>
