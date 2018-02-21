@@ -7,7 +7,7 @@
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
   <copyright>Copyright 2017-2018 Jonathan Brain. All rights reserved.</copyright>
   <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-  <version>4.0.0</version>
+  <version>4.0.10</version>
 	<description><![CDATA[This plugin allows one article to be displayed within another article.
 <br/><br/>
 It operates in a similar manner to the Joomla {loadposition ...} feature but instead of using
@@ -57,6 +57,8 @@ Options is numeric binary OR of one or more of the following values.
 	</config>	
 
   <updateservers>
-      <server type="extension" priority="1" name="Content - bfloadarticle by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_content_bfloadarticle.xml</server>
+      <server type="extension" priority="1" name="Content - bfloadarticle by BrainforgeUK">
+				https://brainforge.co.uk/component/bfupdater?element=plg_content_bfloadarticle.xml
+			</server>
   </updateservers>
 </extension>
